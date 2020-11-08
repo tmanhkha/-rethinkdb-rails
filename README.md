@@ -27,6 +27,8 @@ Distributed Database (RethinkDB) & Ruby on Rails
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
+
+Notice: This setup for MacOS
 * ruby 2.7.0
 ```sh
 rvm install "ruby-2.7.0"
@@ -50,7 +52,7 @@ brew install rethinkdb
 ```sh
 git clone https://github.com/tmanhkha/rethinkdb-rails.git
 ```
-1. Change directory
+2. Change directory
 ```sh
 cd rethinkdb-rails
 ```
@@ -66,7 +68,7 @@ yarn install
 ```sh
 rethinkdb
 ```
-5.  Rails sverver
+6.  Rails sverver
 ```sh
 rails server
 ```
