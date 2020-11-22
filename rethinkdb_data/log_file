@@ -21,3 +21,365 @@
 2020-11-08T19:53:07.066560000 4508.963731s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Added replica on this server.
 2020-11-08T19:53:07.084562000 4508.981734s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 1. Latest log index is 0.
 2020-11-08T19:53:07.955195000 4509.852353s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Configuration is changing.
+2020-11-22T11:21:03.445169000 0.015221s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T11:21:03.454851000 0.024901s notice: Running on Darwin 19.6.0 x86_64
+2020-11-22T11:21:03.454924000 0.024973s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T11:21:03.494436000 0.064483s info: Automatically using cache size of 385 MB
+2020-11-22T11:21:03.495320000 0.065368s notice: Listening for intracluster connections on port 29015
+2020-11-22T11:21:03.523185000 0.093232s notice: Listening for client driver connections on port 28015
+2020-11-22T11:21:03.523251000 0.093298s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T11:21:03.523255000 0.093302s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T11:21:03.523257000 0.093304s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T11:21:03.523265000 0.093312s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T11:21:03.523267000 0.093313s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T11:21:03.523268000 0.093315s notice: Server ready, "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T11:21:05.007144000 1.577146s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 2.
+2020-11-22T11:21:05.027752000 1.597753s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 2. Latest log index is 3.
+2020-11-22T11:21:05.344143000 1.914135s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 2.
+2020-11-22T11:21:05.679979000 2.249961s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 2. Latest log index is 3.
+2020-11-22T11:36:06.216449000 902.768817s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 1.
+2020-11-22T11:36:06.216602000 902.768971s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Added replica on this server.
+2020-11-22T11:36:06.235783000 902.788151s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 1. Latest log index is 0.
+2020-11-22T11:36:07.079233000 903.631575s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Configuration is changing.
+2020-11-22T11:42:36.403623000 1292.955918s notice: Server got SIGINT from pid 95078, uid 501; shutting down...
+2020-11-22T11:42:36.404155000 1292.956453s notice: Shutting down client connections...
+2020-11-22T11:42:36.404577000 1292.956872s notice: All client connections closed.
+2020-11-22T11:42:36.404588000 1292.956882s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T11:42:36.413593000 1292.965889s notice: Storage engine shut down.
+2020-11-22T11:42:37.361652000 0.021807s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T11:42:37.369144000 0.029295s notice: Running on Darwin 19.6.0 x86_64
+2020-11-22T11:42:37.369197000 0.029348s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T11:42:37.416055000 0.076204s info: Automatically using cache size of 100 MB
+2020-11-22T11:42:37.416060000 0.076209s warn: Cache size does not leave much memory for server and query overhead (available memory: 986 MB).
+2020-11-22T11:42:37.416063000 0.076212s warn: Cache size is very low and may impact performance.
+2020-11-22T11:42:37.427940000 0.088089s notice: Listening for intracluster connections on port 29015
+2020-11-22T11:42:37.471706000 0.131854s notice: Listening for client driver connections on port 28015
+2020-11-22T11:42:37.471762000 0.131909s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T11:42:37.471763000 0.131910s notice: Listening on cluster addresses: 127.0.0.1, 192.168.0.15, ::1, fe80::1%1, fe80::8b2:6137:6ddd:76ce%6, fe80::503d:8dff:fe7d:2dfb%8, fe80::503d:8dff:fe7d:2dfb%9, fe80::5daf:fb55:fa69:3504%17, fe80::8178:27c:fc00:a115%15, fe80::99df:ae9e:d232:a744%21, fe80::aede:48ff:fe00:1122%4, fe80::cd4b:2e00:f307:a160%16, fe80::fb7d:b88f:3172:577d%18
+2020-11-22T11:42:37.471781000 0.131928s notice: Listening on driver addresses: 127.0.0.1, 192.168.0.15, ::1, fe80::1%1, fe80::8b2:6137:6ddd:76ce%6, fe80::503d:8dff:fe7d:2dfb%8, fe80::503d:8dff:fe7d:2dfb%9, fe80::5daf:fb55:fa69:3504%17, fe80::8178:27c:fc00:a115%15, fe80::99df:ae9e:d232:a744%21, fe80::aede:48ff:fe00:1122%4, fe80::cd4b:2e00:f307:a160%16, fe80::fb7d:b88f:3172:577d%18
+2020-11-22T11:42:37.471783000 0.131930s notice: Listening on http addresses: 127.0.0.1, 192.168.0.15, ::1, fe80::1%1, fe80::8b2:6137:6ddd:76ce%6, fe80::503d:8dff:fe7d:2dfb%8, fe80::503d:8dff:fe7d:2dfb%9, fe80::5daf:fb55:fa69:3504%17, fe80::8178:27c:fc00:a115%15, fe80::99df:ae9e:d232:a744%21, fe80::aede:48ff:fe00:1122%4, fe80::cd4b:2e00:f307:a160%16, fe80::fb7d:b88f:3172:577d%18
+2020-11-22T11:42:37.471784000 0.131932s notice: Server ready, "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T11:42:38.628600000 1.288715s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 3.
+2020-11-22T11:42:38.648582000 1.308696s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 3. Latest log index is 7.
+2020-11-22T11:42:39.125485000 1.785585s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 2.
+2020-11-22T11:42:39.349897000 2.009991s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 2. Latest log index is 3.
+2020-11-22T11:42:39.351082000 2.011176s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 3.
+2020-11-22T11:42:39.432583000 2.092675s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 3. Latest log index is 7.
+2020-11-22T11:43:39.004877000 61.663266s notice: Server got SIGINT from pid 95078, uid 501; shutting down...
+2020-11-22T11:43:39.004990000 61.663379s notice: Shutting down client connections...
+2020-11-22T11:43:39.005052000 61.663440s notice: All client connections closed.
+2020-11-22T11:43:39.005056000 61.663444s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T11:43:39.014604000 61.672992s notice: Storage engine shut down.
+2020-11-22T11:44:56.030966000 0.045997s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T11:44:56.040824000 0.055851s notice: Running on Darwin 19.6.0 x86_64
+2020-11-22T11:44:56.040904000 0.055930s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T11:44:56.089422000 0.104447s info: Automatically using cache size of 100 MB
+2020-11-22T11:44:56.089431000 0.104455s warn: Cache size does not leave much memory for server and query overhead (available memory: 966 MB).
+2020-11-22T11:44:56.089436000 0.104460s warn: Cache size is very low and may impact performance.
+2020-11-22T11:44:56.096159000 0.111186s notice: Listening for intracluster connections on port 29015
+2020-11-22T11:44:56.097035000 0.112060s info: Attempting connection to 1 peer...
+2020-11-22T11:48:55.035277000 0.027614s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T11:48:55.053339000 0.045677s notice: Running on Darwin 19.6.0 x86_64
+2020-11-22T11:48:55.053591000 0.045923s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T11:48:55.103593000 0.095923s info: Automatically using cache size of 100 MB
+2020-11-22T11:48:55.103601000 0.095930s warn: Cache size does not leave much memory for server and query overhead (available memory: 961 MB).
+2020-11-22T11:48:55.103606000 0.095935s warn: Cache size is very low and may impact performance.
+2020-11-22T11:48:55.107374000 0.099703s notice: Listening for intracluster connections on port 29015
+2020-11-22T11:48:55.107926000 0.100343s info: Attempting connection to 1 peer...
+2020-11-22T11:50:01.305973000 0.031926s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T11:50:01.318074000 0.044023s notice: Running on Darwin 19.6.0 x86_64
+2020-11-22T11:50:01.318137000 0.044085s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T11:50:01.366050000 0.091997s info: Automatically using cache size of 100 MB
+2020-11-22T11:50:01.366075000 0.092023s warn: Cache size does not leave much memory for server and query overhead (available memory: 955 MB).
+2020-11-22T11:50:01.366083000 0.092030s warn: Cache size is very low and may impact performance.
+2020-11-22T11:50:01.369774000 0.095721s notice: Listening for intracluster connections on port 29015
+2020-11-22T11:50:01.369990000 0.095937s info: Attempting connection to 1 peer...
+2020-11-22T11:53:17.342657000 0.103507s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T11:53:17.354748000 0.115593s notice: Running on Darwin 19.6.0 x86_64
+2020-11-22T11:53:17.354828000 0.115672s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T11:53:17.402287000 0.163130s info: Automatically using cache size of 100 MB
+2020-11-22T11:53:17.402302000 0.163145s warn: Cache size does not leave much memory for server and query overhead (available memory: 981 MB).
+2020-11-22T11:53:17.402311000 0.163154s warn: Cache size is very low and may impact performance.
+2020-11-22T11:53:17.403496000 0.164339s error: TCP socket creation failed for port 29015: Address already in use.
+2020-11-22T11:53:56.201942000 0.060496s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T11:53:56.215378000 0.073928s notice: Running on Darwin 19.6.0 x86_64
+2020-11-22T11:53:56.215491000 0.074038s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T11:53:56.262208000 0.120755s info: Automatically using cache size of 100 MB
+2020-11-22T11:53:56.262217000 0.120763s warn: Cache size does not leave much memory for server and query overhead (available memory: 1021 MB).
+2020-11-22T11:53:56.262223000 0.120769s warn: Cache size is very low and may impact performance.
+2020-11-22T11:53:56.269732000 0.128280s notice: Listening for intracluster connections on port 29015
+2020-11-22T11:53:56.270249000 0.128795s info: Attempting connection to 1 peer...
+2020-11-22T11:54:47.809454000 0.031858s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T11:54:47.822871000 0.045270s notice: Running on Darwin 19.6.0 x86_64
+2020-11-22T11:54:47.822984000 0.045382s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T11:54:47.872828000 0.095225s info: Automatically using cache size of 100 MB
+2020-11-22T11:54:47.872840000 0.095236s warn: Cache size does not leave much memory for server and query overhead (available memory: 1023 MB).
+2020-11-22T11:54:47.872847000 0.095243s warn: Cache size is very low and may impact performance.
+2020-11-22T11:54:47.878607000 0.101006s notice: Listening for intracluster connections on port 29015
+2020-11-22T11:54:47.879779000 0.102178s info: Attempting connection to 1 peer...
+2020-11-22T15:57:25.382336000 0.037028s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T15:57:25.392024000 0.046714s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T15:57:25.392085000 0.046774s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T15:57:25.460816000 0.115505s info: Automatically using cache size of 583 MB
+2020-11-22T15:57:25.464167000 0.118855s notice: Listening for intracluster connections on port 29015
+2020-11-22T15:57:25.493186000 0.147875s notice: Listening for client driver connections on port 28015
+2020-11-22T15:57:25.493234000 0.147922s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T15:57:25.493288000 0.147977s notice: Listening on cluster addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T15:57:25.493290000 0.147978s notice: Listening on driver addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T15:57:25.493291000 0.147980s notice: Listening on http addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T15:57:25.493293000 0.147981s notice: Server ready, "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T15:57:26.618216000 1.272902s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 3.
+2020-11-22T15:57:26.668877000 1.323563s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 3. Latest log index is 7.
+2020-11-22T15:57:27.213022000 1.867706s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 4.
+2020-11-22T15:57:27.406741000 2.061425s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 4.
+2020-11-22T15:57:27.810272000 2.464955s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 4. Latest log index is 11.
+2020-11-22T15:57:27.951004000 2.605686s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 4. Latest log index is 11.
+2020-11-22T15:57:40.820883000 15.475532s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T15:57:40.821048000 15.475695s notice: Shutting down client connections...
+2020-11-22T15:57:40.821139000 15.475786s notice: All client connections closed.
+2020-11-22T15:57:40.821146000 15.475793s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T15:57:40.827115000 15.481763s notice: Storage engine shut down.
+2020-11-22T16:01:36.225079000 0.047463s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:01:36.231008000 0.053389s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:01:36.231068000 0.053449s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T16:01:36.319305000 0.141686s info: Automatically using cache size of 456 MB
+2020-11-22T16:01:36.322261000 0.144642s notice: Listening for intracluster connections on port 29015
+2020-11-22T16:01:36.365676000 0.188057s notice: Listening for client driver connections on port 28015
+2020-11-22T16:01:36.365735000 0.188115s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T16:01:36.365742000 0.188123s notice: Listening on cluster addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T16:01:36.365744000 0.188124s notice: Listening on driver addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T16:01:36.365745000 0.188126s notice: Listening on http addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T16:01:36.365747000 0.188127s notice: Server ready, "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:01:37.590119000 1.412497s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 4.
+2020-11-22T16:01:37.601390000 1.423768s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 5.
+2020-11-22T16:01:37.640827000 1.463205s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 4. Latest log index is 11.
+2020-11-22T16:01:37.690970000 1.513347s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 5. Latest log index is 15.
+2020-11-22T16:01:37.991574000 1.813950s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 5.
+2020-11-22T16:01:38.126755000 1.949131s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 5. Latest log index is 15.
+2020-11-22T16:02:44.172108000 67.994306s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Configuration is changing.
+2020-11-22T16:02:44.285270000 68.107468s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Configuration is changing.
+2020-11-22T16:02:44.801649000 68.623846s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Starting a new Raft election for term 1.
+2020-11-22T16:02:44.802091000 68.624288s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Added replica on this server.
+2020-11-22T16:02:44.955642000 68.777839s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: This server is Raft leader for term 1. Latest log index is 0.
+2020-11-22T16:02:47.931692000 71.753881s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T16:02:47.931803000 71.753992s notice: Shutting down client connections...
+2020-11-22T16:02:47.933725000 71.755913s notice: All client connections closed.
+2020-11-22T16:02:47.933734000 71.755922s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T16:02:48.928589000 72.750775s notice: Storage engine shut down.
+2020-11-22T16:03:45.218887000 0.046031s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:03:45.227833000 0.054974s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:03:45.227896000 0.055037s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T16:03:45.311742000 0.138882s info: Automatically using cache size of 431 MB
+2020-11-22T16:03:45.314948000 0.142088s notice: Listening for intracluster connections on port 29015
+2020-11-22T16:03:45.371143000 0.198284s notice: Listening for client driver connections on port 28015
+2020-11-22T16:03:45.371192000 0.198332s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T16:03:45.371194000 0.198334s notice: Listening on cluster addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T16:03:45.371198000 0.198338s notice: Listening on driver addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T16:03:45.371270000 0.198410s notice: Listening on http addresses: 127.0.0.1, 172.20.10.2, ::1, 2402:800:4365:9d67:63:9182:58a0:2ebb, 2402:800:4365:9d67:6d20:df3:eb4f:38c, fe80::1%1, fe80::1095:f367:cc4d:fc23%6, fe80::1834:c1ff:fe4e:688e%7, fe80::1834:c1ff:fe4e:688e%8, fe80::4a3d:6eff:f4db:123b%15, fe80::7d04:4e2e:8a7c:d0b4%17, fe80::968e:2db6:c16c:b8b4%16, fe80::aede:48ff:fe00:1122%4, fe80::b31a:de41:bae4:ed30%14
+2020-11-22T16:03:45.371272000 0.198412s notice: Server ready, "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:03:46.703588000 1.530724s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 5.
+2020-11-22T16:03:46.754018000 1.581154s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 5. Latest log index is 19.
+2020-11-22T16:03:46.875855000 1.702992s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Starting a new Raft election for term 2.
+2020-11-22T16:03:46.926122000 1.753258s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: This server is Raft leader for term 2. Latest log index is 2.
+2020-11-22T16:03:47.146019000 1.973154s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 6.
+2020-11-22T16:03:47.248875000 2.076010s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 6. Latest log index is 19.
+2020-11-22T16:03:47.308898000 2.136033s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 6.
+2020-11-22T16:03:49.212875000 4.040005s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 6. Latest log index is 22.
+2020-11-22T16:03:56.803203000 11.630313s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Configuration is changing.
+2020-11-22T16:03:56.805431000 11.632541s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Configuration is changing.
+2020-11-22T16:03:56.807356000 11.634466s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Configuration is changing.
+2020-11-22T16:03:56.809651000 11.636760s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Configuration is changing.
+2020-11-22T16:06:35.490193000 170.316877s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T16:06:35.490422000 170.317106s notice: Shutting down client connections...
+2020-11-22T16:06:35.490606000 170.317289s notice: All client connections closed.
+2020-11-22T16:06:35.490626000 170.317309s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T16:06:35.501930000 170.328614s notice: Storage engine shut down.
+2020-11-22T16:06:49.616596000 0.016447s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:06:49.621596000 0.021445s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:06:49.621692000 0.021540s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T16:06:49.688493000 0.088341s info: Automatically using cache size of 552 MB
+2020-11-22T16:06:49.690238000 0.090086s notice: Listening for intracluster connections on port 29015
+2020-11-22T16:06:49.690398000 0.090246s info: Attempting connection to 1 peer...
+2020-11-22T16:07:45.787824000 56.166212s warn: Received invalid clustering header from [::1]:51159, closing connection -- something might be connecting to the wrong port.
+2020-11-22T16:07:47.020797000 57.398623s warn: Received invalid clustering header from [::1]:51160, closing connection -- something might be connecting to the wrong port.
+2020-11-22T16:08:47.954717000 118.325267s warn: Received invalid clustering header from [::1]:51162, closing connection -- something might be connecting to the wrong port.
+2020-11-22T16:09:33.679437000 0.018901s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:09:33.684665000 0.024126s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:09:33.684722000 0.024182s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T16:09:33.748040000 0.087499s info: Automatically using cache size of 414 MB
+2020-11-22T16:09:33.749923000 0.089382s notice: Listening for intracluster connections on port 29015
+2020-11-22T16:09:33.749928000 0.089387s warn: Attempted to join self, peer ignored
+2020-11-22T16:09:33.749942000 0.089400s info: Attempting connection to 0 peers...
+2020-11-22T16:09:34.042539000 0.381994s error: Could not bind to RDB protocol port: The address at localhost:28015 is reserved or already in use.
+2020-11-22T16:12:56.695789000 0.043597s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:12:56.701511000 0.049316s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:12:56.701567000 0.049372s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T16:12:56.787154000 0.134957s info: Automatically using cache size of 401 MB
+2020-11-22T16:12:56.788546000 0.136350s notice: Listening for intracluster connections on port 29015
+2020-11-22T16:12:56.841072000 0.188875s notice: Listening for client driver connections on port 28015
+2020-11-22T16:12:56.841140000 0.188943s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T16:12:56.841143000 0.188946s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T16:12:56.841187000 0.188990s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T16:12:56.841203000 0.189006s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T16:12:56.841205000 0.189007s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T16:12:56.841206000 0.189009s notice: Server ready, "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:12:57.955298000 1.303086s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 7.
+2020-11-22T16:12:58.034110000 1.381899s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 7. Latest log index is 27.
+2020-11-22T16:12:58.420785000 1.768567s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Starting a new Raft election for term 3.
+2020-11-22T16:12:58.464321000 1.812102s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 7.
+2020-11-22T16:12:58.512076000 1.859857s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: This server is Raft leader for term 3. Latest log index is 7.
+2020-11-22T16:12:58.671151000 2.018929s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 6.
+2020-11-22T16:13:00.312166000 3.659923s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 7. Latest log index is 29.
+2020-11-22T16:13:00.499804000 3.847558s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 6. Latest log index is 24.
+2020-11-22T16:13:33.539924000 36.887235s notice: Connected to server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:16:58.729357000 242.073921s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T16:16:58.729484000 242.074047s notice: Shutting down client connections...
+2020-11-22T16:16:58.732160000 242.076724s notice: All client connections closed.
+2020-11-22T16:16:58.732169000 242.076732s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T16:16:58.746759000 242.091322s notice: Storage engine shut down.
+2020-11-22T16:16:58.747171000 242.091735s notice: Disconnected from server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:17:33.495819000 0.016885s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:17:33.502243000 0.023306s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:17:33.502313000 0.023375s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T16:17:33.568029000 0.089091s info: Automatically using cache size of 464 MB
+2020-11-22T16:17:33.568649000 0.089710s notice: Listening for intracluster connections on port 29015
+2020-11-22T16:17:33.614067000 0.135127s notice: Listening for client driver connections on port 28015
+2020-11-22T16:17:33.614241000 0.135302s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T16:17:33.614244000 0.135304s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T16:17:33.614245000 0.135305s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T16:17:33.614246000 0.135307s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T16:17:33.614248000 0.135308s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T16:17:33.614249000 0.135309s notice: Server ready, "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:17:34.701955000 1.223002s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 8.
+2020-11-22T16:17:34.731236000 1.252283s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 8.
+2020-11-22T16:17:34.752775000 1.273820s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 8. Latest log index is 33.
+2020-11-22T16:17:34.806572000 1.327616s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 8. Latest log index is 31.
+2020-11-22T16:17:35.313824000 1.834862s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 7.
+2020-11-22T16:17:35.395994000 1.917031s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Starting a new Raft election for term 4.
+2020-11-22T16:17:38.504599000 5.025594s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 7. Latest log index is 28.
+2020-11-22T16:17:38.579776000 5.100771s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: This server is Raft leader for term 4. Latest log index is 11.
+2020-11-22T16:17:42.249848000 8.770792s notice: Connected to server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:17:51.852787000 18.373603s notice: Disconnected from server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:18:31.390465000 57.910752s notice: Connected to server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:21:51.039052000 257.556665s notice: Disconnected from server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:21:54.791895000 261.309458s notice: Connected to server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:22:10.973804000 277.491151s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T16:22:10.973965000 277.491311s notice: Shutting down client connections...
+2020-11-22T16:22:10.974412000 277.491759s notice: All client connections closed.
+2020-11-22T16:22:10.974468000 277.491814s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T16:22:10.987738000 277.505084s notice: Storage engine shut down.
+2020-11-22T16:22:10.988079000 277.505425s notice: Disconnected from server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:23:17.926428000 0.021638s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:23:17.936110000 0.031317s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:23:17.936223000 0.031429s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T16:23:17.996854000 0.092059s info: Automatically using cache size of 331 MB
+2020-11-22T16:23:17.997347000 0.092552s notice: Listening for intracluster connections on port 29015
+2020-11-22T16:23:18.066385000 0.161590s notice: Listening for client driver connections on port 28015
+2020-11-22T16:23:18.066547000 0.161751s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T16:23:18.066549000 0.161753s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T16:23:18.066551000 0.161755s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T16:23:18.066552000 0.161756s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T16:23:18.066553000 0.161757s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T16:23:18.066555000 0.161759s notice: Server ready, "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:23:19.554255000 1.649440s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Starting a new Raft election for term 5.
+2020-11-22T16:23:19.604490000 1.699674s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: This server is Raft leader for term 5. Latest log index is 15.
+2020-11-22T16:23:19.822534000 1.917714s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 9.
+2020-11-22T16:23:19.879066000 1.974246s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 9.
+2020-11-22T16:23:19.908055000 2.003235s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 9. Latest log index is 35.
+2020-11-22T16:23:19.939651000 2.034830s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 8.
+2020-11-22T16:23:20.010347000 2.105526s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 9. Latest log index is 37.
+2020-11-22T16:23:20.111131000 2.206308s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 8. Latest log index is 32.
+2020-11-22T16:23:51.557670000 33.652426s notice: Connected to server "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:26:12.966472000 175.057537s info: Changed server's name from `Manhs_MacBook_Pro_local_0qm` to `server1`.
+2020-11-22T16:30:42.527325000 444.611934s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Configuration is changing.
+2020-11-22T16:30:42.637939000 444.722544s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Configuration is changing.
+2020-11-22T16:30:42.747654000 444.832256s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Configuration is changing.
+2020-11-22T16:30:43.007577000 445.092174s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Configuration is changing.
+2020-11-22T17:00:13.471178000 2215.577372s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T17:00:13.471480000 2215.577671s notice: Shutting down client connections...
+2020-11-22T17:00:13.471934000 2215.578125s notice: All client connections closed.
+2020-11-22T17:00:13.471938000 2215.578129s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T17:00:13.486101000 2215.592292s notice: Storage engine shut down.
+2020-11-22T17:00:13.487292000 2215.593483s notice: Disconnected from server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:00:16.830995000 0.020084s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T17:00:16.836768000 0.025855s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T17:00:16.836821000 0.025908s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T17:00:16.915646000 0.104731s info: Automatically using cache size of 386 MB
+2020-11-22T17:00:16.916093000 0.105178s notice: Listening for intracluster connections on port 29015
+2020-11-22T17:00:16.960548000 0.149631s notice: Listening for client driver connections on port 28015
+2020-11-22T17:00:16.960615000 0.149699s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T17:00:16.960617000 0.149701s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T17:00:16.960806000 0.149890s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T17:00:16.960827000 0.149910s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T17:00:16.960828000 0.149911s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T17:00:16.960829000 0.149912s notice: Server ready, "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:00:17.236637000 0.425713s notice: Connected to server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:00:18.016584000 1.205641s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Starting a new Raft election for term 6.
+2020-11-22T17:00:18.067359000 1.256415s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: This server is Raft leader for term 6. Latest log index is 26.
+2020-11-22T17:00:18.133628000 1.322682s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 10.
+2020-11-22T17:00:18.227194000 1.416245s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 10. Latest log index is 46.
+2020-11-22T17:00:18.661593000 1.850633s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 10.
+2020-11-22T17:00:18.778095000 1.967132s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 9.
+2020-11-22T17:00:19.315482000 2.504506s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 10. Latest log index is 48.
+2020-11-22T17:00:19.462478000 2.651498s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 9. Latest log index is 43.
+2020-11-22T17:01:32.118982000 75.306158s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T17:01:32.119220000 75.306396s notice: Shutting down client connections...
+2020-11-22T17:01:32.119418000 75.306594s notice: All client connections closed.
+2020-11-22T17:01:32.119427000 75.306603s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T17:01:32.127946000 75.315122s notice: Storage engine shut down.
+2020-11-22T17:01:32.128366000 75.315541s notice: Disconnected from server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:01:36.388971000 0.016877s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T17:01:36.395080000 0.022985s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T17:01:36.395199000 0.023101s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T17:01:36.459260000 0.087161s info: Automatically using cache size of 243 MB
+2020-11-22T17:01:36.459796000 0.087696s notice: Listening for intracluster connections on port 29015
+2020-11-22T17:01:36.522610000 0.150509s notice: Listening for client driver connections on port 28015
+2020-11-22T17:01:36.522656000 0.150555s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T17:01:36.522658000 0.150557s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T17:01:36.522854000 0.150753s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T17:01:36.522856000 0.150755s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T17:01:36.522857000 0.150756s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T17:01:36.522859000 0.150758s notice: Server ready, "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:01:37.685497000 1.313367s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Starting a new Raft election for term 7.
+2020-11-22T17:01:37.749584000 1.377452s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: This server is Raft leader for term 7. Latest log index is 30.
+2020-11-22T17:01:37.804397000 1.432263s notice: Connected to server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:01:37.979457000 1.607319s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 10.
+2020-11-22T17:01:38.141454000 1.769312s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 11.
+2020-11-22T17:01:38.166991000 1.794849s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 11.
+2020-11-22T17:01:38.572466000 2.200313s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 10. Latest log index is 47.
+2020-11-22T17:01:38.654686000 2.282531s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 11. Latest log index is 50.
+2020-11-22T17:01:38.710697000 2.338540s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 11. Latest log index is 52.
+2020-11-22T17:02:43.859066000 67.485256s notice: Disconnected from server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:03:00.368858000 83.994629s notice: Connected to server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:03:37.003495000 120.628336s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Configuration is changing.
+2020-11-22T17:05:33.174587000 236.796480s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T17:05:33.174850000 236.796742s notice: Shutting down client connections...
+2020-11-22T17:05:33.175442000 236.797334s notice: All client connections closed.
+2020-11-22T17:05:33.175455000 236.797347s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T17:05:33.188807000 236.810699s notice: Storage engine shut down.
+2020-11-22T17:05:33.189169000 236.811061s notice: Disconnected from server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:05:38.557157000 0.018241s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T17:05:38.563351000 0.024431s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T17:05:38.563408000 0.024488s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data
+2020-11-22T17:05:38.627971000 0.089050s info: Automatically using cache size of 240 MB
+2020-11-22T17:05:38.628449000 0.089528s notice: Listening for intracluster connections on port 29015
+2020-11-22T17:05:38.693855000 0.154933s notice: Listening for client driver connections on port 28015
+2020-11-22T17:05:38.693965000 0.155042s notice: Listening for administrative HTTP connections on port 8080
+2020-11-22T17:05:38.693968000 0.155044s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T17:05:38.694271000 0.155348s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T17:05:38.694273000 0.155350s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T17:05:38.694275000 0.155352s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T17:05:38.694277000 0.155354s notice: Server ready, "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:05:38.855505000 0.316578s notice: Connected to server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:05:40.122905000 1.583948s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: Starting a new Raft election for term 12.
+2020-11-22T17:05:40.196977000 1.658017s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: Starting a new Raft election for term 12.
+2020-11-22T17:05:40.373683000 1.834718s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: Starting a new Raft election for term 8.
+2020-11-22T17:05:40.897640000 2.358661s info: Table 0e29a98d-c1bd-4fa8-88fd-6d665c3ad125: This server is Raft leader for term 12. Latest log index is 54.
+2020-11-22T17:05:41.039496000 2.500513s info: Table cef562d9-31e5-4bd4-9b41-c3a1bd737b4b: This server is Raft leader for term 12. Latest log index is 56.
+2020-11-22T17:05:41.177066000 2.638080s info: Table 514c5bcc-17a0-4726-93bc-8005123e3532: This server is Raft leader for term 8. Latest log index is 34.
+2020-11-22T17:35:23.947869000 1785.390498s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T17:35:23.947996000 1785.390625s notice: Shutting down client connections...
+2020-11-22T17:35:23.949820000 1785.392449s notice: All client connections closed.
+2020-11-22T17:35:23.949828000 1785.392457s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T17:35:23.976596000 1785.419224s notice: Storage engine shut down.
+2020-11-22T17:35:23.977082000 1785.419710s notice: Disconnected from server "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c

@@ -1,0 +1,150 @@
+2020-11-22T16:13:33.315217000 0.015179s notice: Recursively removing directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2/tmp
+2020-11-22T16:13:33.317215000 0.017180s notice: Initializing directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2
+2020-11-22T16:13:33.317341000 0.017303s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:13:33.323172000 0.023134s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:13:33.323232000 0.023193s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2
+2020-11-22T16:13:33.536692000 0.236650s info: Automatically using cache size of 575 MB
+2020-11-22T16:13:33.537146000 0.237104s notice: Listening for intracluster connections on port 29016
+2020-11-22T16:13:33.537285000 0.237243s info: Attempting connection to 1 peer...
+2020-11-22T16:13:33.538234000 0.238192s notice: Connected to server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:13:33.539821000 0.239780s notice: Listening for client driver connections on port 28016
+2020-11-22T16:13:33.539901000 0.239859s notice: Listening for administrative HTTP connections on port 8081
+2020-11-22T16:13:33.539907000 0.239865s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T16:13:33.539908000 0.239866s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T16:13:33.539915000 0.239873s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T16:13:33.539918000 0.239876s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T16:13:33.539923000 0.239881s notice: Server ready, "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:16:58.748333000 205.445543s notice: Disconnected from server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:17:42.251236000 248.947863s notice: Connected to server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:17:51.848183000 258.544682s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T16:17:51.848462000 258.544961s notice: Shutting down client connections...
+2020-11-22T16:17:51.848802000 258.545301s notice: All client connections closed.
+2020-11-22T16:17:51.848811000 258.545310s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T16:17:51.851632000 258.548132s notice: Storage engine shut down.
+2020-11-22T16:17:51.852430000 258.548929s notice: Disconnected from server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:18:31.314359000 0.017269s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:18:31.321195000 0.024104s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:18:31.321310000 0.024216s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2
+2020-11-22T16:18:31.385185000 0.088090s info: Automatically using cache size of 363 MB
+2020-11-22T16:18:31.385894000 0.088800s notice: Listening for intracluster connections on port 29016
+2020-11-22T16:18:31.386108000 0.089013s info: Attempting connection to 1 peer...
+2020-11-22T16:18:31.387709000 0.090614s notice: Connected to server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:18:31.390300000 0.093206s notice: Listening for client driver connections on port 28016
+2020-11-22T16:18:31.390358000 0.093263s notice: Listening for administrative HTTP connections on port 8081
+2020-11-22T16:18:31.390362000 0.093267s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T16:18:31.390365000 0.093270s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T16:18:31.390368000 0.093273s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T16:18:31.390374000 0.093279s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T16:18:31.390378000 0.093283s notice: Server ready, "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:21:51.035995000 199.736227s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T16:21:51.036215000 199.736447s notice: Shutting down client connections...
+2020-11-22T16:21:51.036598000 199.736830s notice: All client connections closed.
+2020-11-22T16:21:51.036606000 199.736838s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T16:21:51.037887000 199.738119s notice: Storage engine shut down.
+2020-11-22T16:21:51.038805000 199.739036s notice: Disconnected from server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:21:53.879531000 0.019689s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:21:53.901664000 0.041819s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:21:53.901719000 0.041874s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2
+2020-11-22T16:21:53.963264000 0.103418s info: Automatically using cache size of 320 MB
+2020-11-22T16:21:53.963912000 0.104066s notice: Listening for intracluster connections on port 29016
+2020-11-22T16:21:53.965610000 0.105764s notice: Listening for client driver connections on port 28016
+2020-11-22T16:21:53.966296000 0.106449s notice: Listening for administrative HTTP connections on port 8081
+2020-11-22T16:21:53.966303000 0.106457s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T16:21:53.966308000 0.106462s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T16:21:53.966314000 0.106468s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T16:21:53.966319000 0.106472s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T16:21:53.966322000 0.106476s notice: Server ready, "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:21:54.792046000 0.932189s notice: Connected to server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:22:10.988663000 17.128589s notice: Disconnected from server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:22:40.215967000 46.355502s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T16:22:40.216076000 46.355611s notice: Shutting down client connections...
+2020-11-22T16:22:40.216203000 46.355737s notice: All client connections closed.
+2020-11-22T16:22:40.216208000 46.355742s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T16:22:40.216602000 46.356144s notice: Storage engine shut down.
+2020-11-22T16:22:41.210648000 0.019970s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:22:41.222576000 0.031896s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:22:41.222684000 0.032002s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2
+2020-11-22T16:22:41.282400000 0.091718s info: Automatically using cache size of 336 MB
+2020-11-22T16:22:41.282906000 0.092223s notice: Listening for intracluster connections on port 29016
+2020-11-22T16:22:41.284105000 0.093422s notice: Listening for client driver connections on port 28016
+2020-11-22T16:22:41.284154000 0.093470s notice: Listening for administrative HTTP connections on port 8081
+2020-11-22T16:22:41.284157000 0.093474s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T16:22:41.284161000 0.093478s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T16:22:41.284165000 0.093482s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T16:22:41.284168000 0.093485s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T16:22:41.284172000 0.093489s notice: Server ready, "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:23:20.597088000 39.405879s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T16:23:20.597323000 39.406113s notice: Shutting down client connections...
+2020-11-22T16:23:20.597474000 39.406265s notice: All client connections closed.
+2020-11-22T16:23:20.597481000 39.406271s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T16:23:20.597797000 39.406587s notice: Storage engine shut down.
+2020-11-22T16:23:34.749970000 0.014954s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:23:34.754989000 0.019971s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:23:34.755051000 0.020032s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2
+2020-11-22T16:23:34.815433000 0.080413s info: Automatically using cache size of 387 MB
+2020-11-22T16:23:34.816040000 0.081020s error: TCP socket creation failed for port 29015: Address already in use.
+2020-11-22T16:23:51.491687000 0.015786s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T16:23:51.496678000 0.020775s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T16:23:51.496734000 0.020830s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2
+2020-11-22T16:23:51.554770000 0.078865s info: Automatically using cache size of 352 MB
+2020-11-22T16:23:51.555139000 0.079234s notice: Listening for intracluster connections on port 29016
+2020-11-22T16:23:51.555249000 0.079344s info: Attempting connection to 1 peer...
+2020-11-22T16:23:51.555985000 0.080080s notice: Connected to server "Manhs_MacBook_Pro_local_0qm" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T16:23:51.557553000 0.081648s notice: Listening for client driver connections on port 28016
+2020-11-22T16:23:51.557650000 0.081746s notice: Listening for administrative HTTP connections on port 8081
+2020-11-22T16:23:51.557652000 0.081747s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T16:23:51.557655000 0.081750s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T16:23:51.557658000 0.081753s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T16:23:51.557662000 0.081757s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T16:23:51.557673000 0.081767s notice: Server ready, "Manhs_MacBook_Pro_local_683" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T16:26:27.936610000 156.456654s info: Changed server's name from `Manhs_MacBook_Pro_local_683` to `ser`.
+2020-11-22T16:26:36.484308000 165.004147s info: Changed server's name from `ser` to `server2`.
+2020-11-22T16:38:32.100272000 880.602976s info: Table c7f33f84-6de7-44d8-b5dd-966367fa71a1: Starting a new Raft election for term 1.
+2020-11-22T16:38:32.100646000 880.603350s info: Table c7f33f84-6de7-44d8-b5dd-966367fa71a1: Added replica on this server.
+2020-11-22T16:38:32.151437000 880.654140s info: Table c7f33f84-6de7-44d8-b5dd-966367fa71a1: This server is Raft leader for term 1. Latest log index is 0.
+2020-11-22T16:38:33.589512000 882.092181s info: Table c7f33f84-6de7-44d8-b5dd-966367fa71a1: Configuration is changing.
+2020-11-22T16:38:57.754206000 906.256296s info: Table e207c4d6-b25b-491a-be27-c77a61614fcc: Starting a new Raft election for term 1.
+2020-11-22T16:38:57.754328000 906.256417s info: Table e207c4d6-b25b-491a-be27-c77a61614fcc: Added replica on this server.
+2020-11-22T16:38:57.845686000 906.347774s info: Table e207c4d6-b25b-491a-be27-c77a61614fcc: This server is Raft leader for term 1. Latest log index is 0.
+2020-11-22T16:38:59.283674000 907.785728s info: Table e207c4d6-b25b-491a-be27-c77a61614fcc: Configuration is changing.
+2020-11-22T16:39:52.492005000 960.992785s info: Table f2af0545-0c05-4b7e-9692-9a7013c5b84d: Starting a new Raft election for term 1.
+2020-11-22T16:39:52.492162000 960.992941s info: Table f2af0545-0c05-4b7e-9692-9a7013c5b84d: Added replica on this server.
+2020-11-22T16:39:52.603817000 961.104594s info: Table f2af0545-0c05-4b7e-9692-9a7013c5b84d: This server is Raft leader for term 1. Latest log index is 0.
+2020-11-22T16:39:54.806060000 963.306784s info: Table f2af0545-0c05-4b7e-9692-9a7013c5b84d: Configuration is changing.
+2020-11-22T16:43:47.059279000 1195.591755s notice: Removing file /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2/c7f33f84-6de7-44d8-b5dd-966367fa71a1
+2020-11-22T16:43:47.059286000 1195.591762s info: Table c7f33f84-6de7-44d8-b5dd-966367fa71a1: Deleted the table.
+2020-11-22T16:43:53.959505000 1202.491826s notice: Removing file /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2/e207c4d6-b25b-491a-be27-c77a61614fcc
+2020-11-22T16:43:53.959512000 1202.491832s info: Table e207c4d6-b25b-491a-be27-c77a61614fcc: Deleted the table.
+2020-11-22T16:43:59.242926000 1207.775122s notice: Removing file /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2/f2af0545-0c05-4b7e-9692-9a7013c5b84d
+2020-11-22T16:43:59.242933000 1207.775128s info: Table f2af0545-0c05-4b7e-9692-9a7013c5b84d: Deleted the table.
+2020-11-22T17:00:13.487285000 2182.022816s notice: Disconnected from server "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:00:17.237216000 2185.772652s notice: Connected to server "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:01:32.128654000 2260.662189s notice: Disconnected from server "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:01:37.804745000 2266.338136s notice: Connected to server "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:02:43.857208000 2332.388922s notice: Server got SIGINT from pid 1215, uid 501; shutting down...
+2020-11-22T17:02:43.857343000 2332.389057s notice: Shutting down client connections...
+2020-11-22T17:02:43.857447000 2332.389160s notice: All client connections closed.
+2020-11-22T17:02:43.857522000 2332.389235s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-11-22T17:02:43.858265000 2332.389979s notice: Storage engine shut down.
+2020-11-22T17:02:43.858794000 2332.390508s notice: Disconnected from server "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:03:00.297300000 0.019847s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-11-22T17:03:00.302576000 0.025120s notice: Running on Darwin 20.1.0 x86_64
+2020-11-22T17:03:00.302644000 0.025187s notice: Loading data from directory /Users/manhkha/Documents/workspace/rethinkdb-rails/rethinkdb_data2
+2020-11-22T17:03:00.364667000 0.087208s info: Automatically using cache size of 294 MB
+2020-11-22T17:03:00.365335000 0.087876s notice: Listening for intracluster connections on port 29016
+2020-11-22T17:03:00.365544000 0.088085s info: Attempting connection to 1 peer...
+2020-11-22T17:03:00.366830000 0.089371s notice: Connected to server "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:03:00.368751000 0.091292s notice: Listening for client driver connections on port 28016
+2020-11-22T17:03:00.368845000 0.091386s notice: Listening for administrative HTTP connections on port 8081
+2020-11-22T17:03:00.368849000 0.091390s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-11-22T17:03:00.368854000 0.091395s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-11-22T17:03:00.368860000 0.091401s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-11-22T17:03:00.368868000 0.091408s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-11-22T17:03:00.368876000 0.091417s notice: Server ready, "server2" 729896d7-107f-4fb3-b5b3-89c083d62d0c
+2020-11-22T17:03:38.754421000 38.475989s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Added replica on this server.
+2020-11-22T17:05:33.189871000 152.908533s notice: Disconnected from server "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:05:34.953552000 154.672169s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Starting a new Raft election for term 11.
+2020-11-22T17:05:36.846910000 156.565479s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: Raft election timed out. Starting a new election for term 12.
+2020-11-22T17:05:38.856086000 158.574604s notice: Connected to server "server1" 226adc71-3b1e-4525-9030-47eae436c713
+2020-11-22T17:05:39.446756000 159.165259s info: Table 3b97f2bc-585f-494f-8a89-e0eb8e0129a2: This server is Raft leader for term 12. Latest log index is 71.
+2020-11-22T17:35:23.980532000 1943.680605s notice: Disconnected from server "server1" 226adc71-3b1e-4525-9030-47eae436c713
